@@ -3,9 +3,9 @@
 A powerful and configurable bot for automating testnet bridges between OP Sepolia and Base Sepolia on the t3rn network.
 
 ## Updates
--Now the balance checker works independently
--Now when in auto-pause status it looks for sucessfull bridges and resumes if all are sucessfull or uses the configured time
--etc
+- Now the balance checker works independently
+- Now when in auto-pause status it looks for sucessfull bridges and resumes if all are sucessfull or uses the configured time
+- etc
 
 ## 🌟 Key Features
 
