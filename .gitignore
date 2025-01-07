@@ -21,13 +21,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Logs
-*.log
-bridge_bot.log
-
-# Environment
-.env
-.venv
+# Virtual Environment
 venv/
 ENV/
 
@@ -37,5 +31,16 @@ ENV/
 *.swp
 *.swo
 
-# Project specific
-keys_and_addresses.py
+# Logs and databases
+*.log
+*.sqlite
+
+# Local configuration
+.env
+.env.local
+.env.*.local
+
+# Sensitive information
+keys_and_addresses_prod.py
+*_private.py
+*_secret.py
