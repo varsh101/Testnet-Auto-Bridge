@@ -41,8 +41,8 @@ A powerful and configurable bot for automating testnet bridges between OP Sepoli
 
 1. Clone and install:
    ```bash
-   git clone https://github.com/yourusername/t3rn-bridge-bot
-   cd t3rn-bridge-bot
+   git clone https://github.com/varsh101/Testnet-Auto-Bridge
+   cd Testnet-Auto-Bridge
    pip install -r requirements.txt
    ```
 
@@ -64,7 +64,7 @@ A powerful and configurable bot for automating testnet bridges between OP Sepoli
 
 3. Run the bot:
    ```bash
-   python t3rn-bot.py
+   python3 t3rn-bot.py
    ```
 
 ## 🔒 Important Security Notes
