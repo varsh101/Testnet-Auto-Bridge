@@ -1,27 +1,13 @@
-# IMPORTANT: Replace these values with your own private keys and addresses
-# DO NOT share your actual private keys with anyone!
-
-# List of private keys for your wallets
+# keys_and_addresses.py
+# replace you key and address 
 private_keys = [
-    "YOUR_PRIVATE_KEY_1",  # Wallet 1
-    "YOUR_PRIVATE_KEY_2",  # Wallet 2
-    # Add more private keys as needed
+    'Private_key'  # Example: '9da...365' 
 ]
 
-# List of wallet addresses corresponding to the private keys
 my_addresses = [
-    "YOUR_WALLET_ADDRESS_1",  # Address for Wallet 1
-    "YOUR_WALLET_ADDRESS_2",  # Address for Wallet 2
-    # Add more addresses as needed
+    'wallet_address(copy this from bridge.t1rn.io)'  # Example: '0x087....E85' 
 ]
 
-# Optional labels for your wallets
 labels = [
-    "Wallet 1",
-    "Wallet 2",
-    # Add more labels as needed
+    'wallet1' 
 ]
-
-# Ensure the number of private keys matches the number of addresses
-assert len(private_keys) == len(my_addresses), "Number of private keys must match number of addresses"
-assert len(labels) == len(my_addresses), "Number of labels must match number of addresses"
