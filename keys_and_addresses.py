@@ -5,7 +5,7 @@ private_keys = [
 ]
 
 my_addresses = [
-    'wallet_address(copy this from bridge.t1rn.io)'  # Example: '0x087....E85' 
+    'wallet_address'  # Example: '0x087....E85' # copy this from bridge.t1rn.io
 ]
 
 labels = [
